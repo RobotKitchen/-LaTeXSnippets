@@ -16,18 +16,19 @@ Remove spacing in itemize
   \item
 \end
 ```
-
+Inserting pdf pages
 
 ```
 \includegraphics[page={20}, width=0.9\textwidth, angle=0]{thepdf.pdf}
 ```
 
+Black box surrounding text
 
 ```
 \noindent\fbox{%
     \parbox{\textwidth}{%
     \begin{center}
-        \textit{\textbf{Survey}} papers compile many different sources together        
+
     \end{center}
     }%
 }
