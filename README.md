@@ -53,3 +53,9 @@ Highlighting
 \hl{}
 ```
 
+Inserting code
+
+```
+\lstinputlisting[language=C]{RoboticSystems/L.c}
+```
+
