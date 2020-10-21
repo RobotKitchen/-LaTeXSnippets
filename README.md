@@ -46,3 +46,10 @@ Table with fixed size and middle aligment. The aligning options are m for middle
     \label{tab:my_label}
 \end{table}
 ```
+
+Highlighting
+
+```
+\hl{}
+```
+
