@@ -59,3 +59,20 @@ Inserting code
 \lstinputlisting[language=C]{RoboticSystems/L.c}
 ```
 
+
+
+Scaling equations
+
+```
+\newcommand*{\Scale}[2][4]{\scalebox{#1}{$#2$}}%
+\newcommand*{\Resize}[2]{\resizebox{#1}{!}{$#2$}}%
+\begin{document}
+\[y = \sin^2 x\]
+%
+\[\Scale[0.5]{y = \sin^2 x}\]
+%
+\[ \Resize{1cm}{y = \sin^2 x}\]
+\end{document}
+```
+
+
