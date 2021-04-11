@@ -60,6 +60,13 @@ Inserting code
 ```
 
 
+Line between paragraphs
+
+```
+\blackrule[width=\hsize, height=1pt, depth=0.5ex]
+```
+
+
 
 Scaling equations
 
