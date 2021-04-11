@@ -63,7 +63,7 @@ Inserting code
 Line between paragraphs
 
 ```
-\blackrule[width=\hsize, height=1pt, depth=0.5ex]
+\noindent\rule[0.5ex]{\linewidth}{1pt}
 ```
 
 
